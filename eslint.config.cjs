@@ -7,6 +7,10 @@ module.exports = [
     languageOptions: {
       globals: {
         // Node.js
+        require: "readonly",
+        module: "readonly",
+        exports: "readonly",
+        console: "readonly",
         process: "readonly",
         __dirname: "readonly",
         // Mocha
